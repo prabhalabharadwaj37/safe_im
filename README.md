@@ -21,3 +21,4 @@
     - pip install profanity_filter
     - pip install spacy
     - python -m spacy download en
+    - python backend.py
