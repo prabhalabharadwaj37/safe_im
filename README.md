@@ -8,7 +8,7 @@
 
 ## Limitations
 - Supports only english language to filter words. 
-- Complex obscene sentances can be difficult to detect. 
+- Complex obscene sentences can be difficult to detect. 
 
 ## Benefits of the PoC
 - Today, bullying on social or messaging platforms is rampant among children typically in middle/high schools. This causes lack of self esteem and depression among the younger generation. Applications implementing such a feature can help reduce the burden of such bullying on young children. Parents can enforce the usage of applications that have this feature built-in and can toggle it as needed. 
