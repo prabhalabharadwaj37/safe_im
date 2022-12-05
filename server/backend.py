@@ -9,12 +9,13 @@ CORS(app)
 
 pf = ProfanityFilter()
 
-
+# Default endpoint
 @app.route('/')
 def index():
     print(request.json)
-    return "Hello, World!"
+    return "Welcome to Safe IM platform!"
 
+# API that cleans the message and responds back
 @app.route("/clean_message", methods=['POST'])
 def clean_message():
     print("Origin: ", request.headers['Origin'])
