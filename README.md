@@ -1,9 +1,9 @@
 # Safe IM
-## Client
+## Client (React & JSX)
 - Simple react script to mimick a chat between 2 clients. 
 - Messages are sent from Sender to Receiver. In this process, any profanity is filtered via the profanity NLP library in the backend. 
 
-#3 Server
+#3 Server (Python, Flask)
 - Basic flask application containing a POST method that processes and identifies the profanity in the messages. Such words are replaced with * for each character in the word. 
 
 ## Limitations
